@@ -4,7 +4,7 @@ package Level1;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class LambdaString_E1_E2 {
+public class LambdaString {
     //Exercise 1
     public static List<String> getStringWith(List<String> list) {
         return list.stream()
