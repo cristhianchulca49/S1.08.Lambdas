@@ -1,5 +1,5 @@
 package Level1.E5;
 
-interface PiInterface {
+@FunctionalInterface interface PiInterface {
     public double getPiValue();
 }
