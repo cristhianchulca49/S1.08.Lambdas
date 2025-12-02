@@ -1,7 +1,6 @@
-package Level1;
+package Level1.E1_E2;
 
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class LambdaString {
