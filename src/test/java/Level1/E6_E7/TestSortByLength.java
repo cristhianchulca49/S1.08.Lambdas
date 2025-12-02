@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 import java.util.List;
 
 public class TestSortByLength {
+    //Exercise 1
     @Test
     public void testSortObjectsByLength() {
         List<Object> list = List.of("1,2,3,4,5", "Patrice", 12345, "12345", "numbers", "0", 0, 123456789);
@@ -16,6 +17,7 @@ public class TestSortByLength {
         assertEquals(expected, result);
     }
 
+    //Exercise 2
     @Test
     public void testSortReverseObjectsByLength() {
         List<Object> list = List.of("1,2,3,4,5", "Patrice", 12345, "12345", "numbers", "0", 0, 123456789);
