@@ -13,4 +13,8 @@ public class LambdaString_E1_E2 {
                 .filter(l -> l.toLowerCase().contains("o"))
                 .collect(Collectors.toList());
     }
+
+    public static void printList(List<String> list) {
+        list.forEach(System.out::println);
+    }
 }
