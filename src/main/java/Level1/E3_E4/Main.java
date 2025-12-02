@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        List<String> year = List.of("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
-        Year.printYear(year);
+        List<String> months = List.of("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+        Month.printMonth(months);
     }
 }
