@@ -2,14 +2,16 @@ package Level1;
 
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class LambdaString {
     //Exercise 1
-    public static List<String> getStringWith(List<String> list) {
-        return list.stream()
+    public static List<String> getStringWithO(List<String> list) {
+        List<String> result = list.stream()
                 .filter(l -> l.toLowerCase().contains("o"))
-                .collect(Collectors.toList());
+                .toList();
+
+        printList(result);
+        return result;
     }
 
     public static void printList(List<String> list) {
