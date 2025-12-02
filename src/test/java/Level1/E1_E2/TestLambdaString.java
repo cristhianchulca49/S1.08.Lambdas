@@ -1,6 +1,5 @@
 package Level1.E1_E2;
 
-import Level1.LambdaString;
 import org.junit.Test;
 
 import java.util.List;
